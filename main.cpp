@@ -1,6 +1,7 @@
-#include <stdio.h>
+#include <iostream>
 
 int main(){
-    printf("heeeeeellllllooooo world");
+    std::cout<<"heeeeeellllllooooo world"<<std::endl;
+    std::cin.get();
     return 0;
 }
